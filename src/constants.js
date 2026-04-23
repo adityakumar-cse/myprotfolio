@@ -29,6 +29,7 @@ import svmLogo from './assets/education_logo/svm.jpg';
 import blogappLogo from './assets/work_logo/blog_app.png';
 import realestateLogo from './assets/work_logo/real_estate.png';
 import weatherappLogo from './assets/work_logo/weather_app.png';
+import myportfolioLogo from './assets/work_logo/my_portfolio.png';
 
 
 export const SkillsInfo = [
@@ -156,10 +157,19 @@ export const SkillsInfo = [
     {
       id: 2,
       title: "Weather App",
-      description:"Developed a fully responsive weather application using HTML, vanilla CSS, and JavaScript. Integrated the Current Weather Data API to fetch and display real-time weather information based on user location or search queries. Implemented features including current temperature, weather conditions, wind speed, and humidity display. ",
+      description:"Developed a fully responsive weather application using HTML, vanilla CSS, and JavaScript. Integrated the Current Weather Data API to fetch and display real-time weather information based on user location or search queries. Implemented features including current temperature, weather conditions, wind speed, and humidity display.",
       image: weatherappLogo,
       tags: ["HTML", "CSS", "JavaScript", "API"],
       github: "https://github.com/adityakumar-cse/Weather-App",
       webapp: "https://weather-app-eight-theta-11.vercel.app/",
+    },
+    {
+      id: 3,
+      title: "myPortfolio",
+      description: "Developed a fully responsive personal portfolio using React.js and Tailwind CSS to showcase projects, skills, and achievements. Integrated EmailJS for contact form functionality with real-time notifications using React Toastify. Enhanced user experience with interactive UI features like typing animations, parallax tilt effects, and smooth navigation using React Router.",
+      image: myportfolioLogo,
+      tags: ["ReactJS", "JavaScript", "Tailwind CSS", "EmailJS", "React Router","React Toastify", "React Typing Effect"],
+      github: "https://github.com/adityakumar-cse/myprotfolio",
+      webapp: "https://adityakumar-protfolio.vercel.app/"
     },
     ];  
