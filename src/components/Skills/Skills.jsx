@@ -34,7 +34,7 @@ const Skills = () => (
             perspective={1000}
             scale={1.05}
             transitionSpeed={1000}
-            gyroscope={true}
+            gyroscope={false}
           >
             <div className="flex flex-wrap gap-4 justify-center">
               {category.skills.map((skill) => (
