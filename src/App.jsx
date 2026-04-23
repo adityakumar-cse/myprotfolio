@@ -13,21 +13,23 @@ const App = () => {
   return (
     <div className="relative min-h-screen bg-[#050414] overflow-hidden">
 
+      {/* Blur Blob */}
       <BlurBlob
         position={{ top: "35%", left: "20%" }}
         size={{ width: "30%", height: "40%" }}
       />
 
+      {/* Grid Background */}
       <div
         className="
-          absolute inset-0
-          bg-[linear-gradient(to_right,#6b6b6b40_1px,transparent_1px),linear-gradient(to_bottom,#6b6b6b40_1px,transparent_1px)]
+          absolute inset-0 z-0
+          bg-[linear-gradient(to_right,#6b6b6b35_1px,transparent_1px),linear-gradient(to_bottom,#6b6b6b35_1px,transparent_1px)]
           bg-[size:14px_24px]
-          opacity-40
-          z-0
+          opacity-50
         "
       ></div>
 
+      {/* Main Content */}
       <div className="relative z-10 pt-20">
         <Navbar />
         <About />
@@ -38,7 +40,6 @@ const App = () => {
         <Contact />
         <Footer />
       </div>
-
     </div>
   );
 };
