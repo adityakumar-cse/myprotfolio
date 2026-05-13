@@ -16,6 +16,7 @@ import vscodeLogo from './assets/tech_logo/vscode.png';
 import vercelLogo from './assets/tech_logo/vercel.png';
 import picsartLogo from './assets/tech_logo/picsart.png';
 import canvaLogo from './assets/tech_logo/canva.png';
+import postmanLogo from './assets/tech_logo/postman.png';
 
 // Experience Section Logo's
 import infiniteLogo from './assets/company_logo/infinite.png';
@@ -69,6 +70,7 @@ export const SkillsInfo = [
       { name: 'Vercel', logo: vercelLogo },
       { name: 'Picsart', logo: picsartLogo },
       { name: 'Canva', logo: canvaLogo },
+      { name: 'Postman', logo: postmanLogo },
     ],
   },
 ];
